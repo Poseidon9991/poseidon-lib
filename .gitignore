@@ -1,0 +1,67 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# Temp Files of gradle
+.gradle/
+build/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# runs
+run/
+run-data/
+runs/
+logs/
+debug/
+
+# local asset-generation scripts
+tools/
+toolsout/
+
+# Stonecutter generated artifacts
+src/generated/
+mcmodsrepo/
+
+# Gradle wrapper jar must stay tracked - required for gradlew on fresh clones
+!gradle/wrapper/gradle-wrapper.jar
+
+# VS Code
+.vscode/
+.factorypath
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+eclipse/
+*.launch
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
